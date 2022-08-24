@@ -1,0 +1,17 @@
+1.  spl register 3.4 papka icinde qurmaq
+
+
+2. User clasi yarat. static birde adi methodlar olsun
+
+$user = User::setName('Orxan')->setAge('15')->setPhone('+994');
+
+
+echo $user->getData(); // burda etrafli txt olsun..
+
+$user->setName('Kazim');
+
+echo $user->getData() ; //
+
+echo $user->getName(); // bunlar duzgun datani qaytarsin
+echo $user->getAge(); // bunlar duzgun datani qaytarsin
+echo $user->getPhone(); // bunlar duzgun datani qaytarsin
